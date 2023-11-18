@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #202133;
+}
+
+.btn-voltar {
+    padding: 6px 100px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: #16244d;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.container {
+  background-color: #111a35;
+  padding: 6px;
+  width: 370px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #3f4968;
+}
+
+.message {
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 275px;
+  text-align: center;
+  font-size: 16px;
+  height: auto;
+}
+
+form {
+  position: absolute;
+  margin-top: 80px;
+  transition: .5s;
+  width: 300px;
+  height: 250px;
+  color: white;
+}
+
+.buttonsForm {
+  margin-top: 40px;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0 0 7px 0 #3f4968;
+}
+
+.buttonsForm button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  position: relative;
+  padding: 10px 27px;
+  color: white;
+}
+
+.btnColor {
+  position: absolute;
+  width: 108px;
+  height: 100%;
+  background: linear-gradient(to right, #0f3992, #6c93ff);
+  border-radius: 30px;
+  transition: .3s;
+}
+
+input[type="text"], input[type="password"] {
+  border: none;
+  margin-top: 40px;
+  border-radius: 60px;
+  padding: 8px 0 8px 35px;
+  outline: none;
+  width: 100%;
+  color: white;
+  background-color: #464b73;
+}
+
+button[type="submit"] {
+  background: #4b6ac2;
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 0 8px 0px;
+  font-size: 15px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.divCheck {
+  margin: 10px 0 0 5px;
+  width: 80%;
+  font-size: 13px;
+}
+
+#signin {
+  left: 40px;
+}
+
+#signup {
+  left: 450px;
+}
+
+i {
+  position: absolute;
+  left: 0;
+  padding: 10px 10px;
+}
+
+.iEmail {
+  top: 40px;
+}
+
+.iPassword {
+  top: 114px;
+}
+
+.iPassword3 {
+  top: 191px;
+}
+
+.iTel{
+  top: 108px;
+}
+
+i#togglePassword {
+  left: 260px;
+  margin-top: -44px;
+  cursor: pointer;
+}
+
+i#togglePassword2 {
+  left: 260px;
+  margin-top: -44px;
+  cursor: pointer;
+}
+
+i#togglePassword3 {
+  left: 260px;
+  margin-top: -44px;
+  cursor: pointer;
+}
+
+.iPassword2 {
+  top: 267px;
+}
